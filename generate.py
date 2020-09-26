@@ -7,7 +7,7 @@ with open('metadata.csv', 'w', newline='') as file:
 
     for classe in ["COLHER", "GARFO", "CANECA", "FACA", "PANELA", "FRIGIDEIRA", "CONTROLE REMOTO", "CALCA", "CASACO", "CAMISETA"]:
         for objeto in range(1,4):
-            for fundo in ["FUNDO1", "FUNDO2", "FUNDO3"]:
+            for fundo in ["ESCURO", "CLARO", "MADEIRA"]:
                 for light in ["DIA", "NOITE"]:
                     for indoor in ["INDOOR", "OUTDOOR"]:
                         for repeticao in ["a", "b", "c"]:
