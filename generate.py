@@ -1,4 +1,5 @@
 import csv
+import datetime
 
 with open('metadata.csv', 'w', newline='') as file:
     
@@ -12,7 +13,7 @@ with open('metadata.csv', 'w', newline='') as file:
                     for indoor in ["INDOOR", "OUTDOOR"]:
                         for repeticao in ["a", "b", "c"]:
                             writer.writerow([str(classe) + "_" + light + "_" + indoor + "_" + fundo + str(objeto) + str(repeticao) + ".jpg", 
-                                0, 
+                                None, 
                                 classe, 
                                 fundo, 
                                 light=="DIA", 
