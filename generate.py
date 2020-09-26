@@ -11,4 +11,9 @@ with open('metadata.csv', 'w', newline='') as file:
                 for light in ["DIA", "NOITE"]:
                     for indoor in ["INDOOR", "OUTDOOR"]:
                         for repeticao in ["a", "b", "c"]:
-                            writer.writerow([str(classe) + str(objeto) + str(repeticao), 0, classe, fundo, light, indoor])
+                            writer.writerow([str(classe) + str(objeto) + str(repeticao) + "_" + light + "_" + indoor + "_" + fundo + ".jpg", 
+                                0, 
+                                classe, 
+                                fundo, 
+                                light=="DIA", 
+                                indoor=="INDOOR"])
