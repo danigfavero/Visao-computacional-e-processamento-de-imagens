@@ -1,0 +1,6 @@
+GRUPO
+Daniela Favero - 10277443
+Mateus Barbosa - 8993368
+Vitor Guidi - 8038091
+
+Os dados estão no repositório do GitHub: https://github.com/danigfavero/Visao-computacional-e-processamento-de-imagens
